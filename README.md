@@ -1,5 +1,15 @@
 # Preact Boilerplate / Starter Kit
 
+# Cloud9-pitfalls:
+As per https://community.c9.io/t/mixed-content-with-webpack-dev-server/3053/4
+
+you can go to your node_modules/webpack-dev-server/client/index.js and replace line 62
+protocol: urlParts.protocol,
+with
+protocol: (window.location.protocol == 'https:') ? 'https:' : urlParts.protocol,
+
+
+
 [![Build Status](https://travis-ci.org/developit/preact-boilerplate.svg?branch=master)](https://travis-ci.org/developit/preact-boilerplate)
 [![gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/developit/preact)
 

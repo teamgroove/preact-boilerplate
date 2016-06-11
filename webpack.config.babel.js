@@ -9,7 +9,8 @@ const CSS_MAPS = ENV!=='production';
 
 module.exports = {
 	context: `${__dirname}/src`,
-	entry: './index.js',
+	entry: 
+        './index.js',
 
 	output: {
 		path: `${__dirname}/build`,
