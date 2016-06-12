@@ -11,7 +11,7 @@
     "test": "npm run -s lint && npm run -s test:karma",
     "test:karma": "karma start test/karma.conf.js --single-run",
     "lint": "eslint {src,test}",
-    "deploy" : "surge ./build -d rt-preact.surge.sh"
+    "deploy": "surge ./build -d rt-preact.surge.sh"
   },
   "keywords": [
     "preact",
@@ -67,10 +67,12 @@
   },
   "dependencies": {
     "decko": "^1.1.3",
+    "es6-promise": "^3.2.1",
     "preact": "^4.5.0",
     "preact-compat": "^1.6.1",
     "preact-router": "^1.3.0",
     "proptypes": "^0.14.3",
+    "whatwg-fetch": "^1.0.0",
     "wildemitter": "^1.2.0"
   }
 }

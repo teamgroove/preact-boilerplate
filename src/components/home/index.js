@@ -7,7 +7,7 @@ export default class Home extends Component {
 		return (
 			<div class={style.home}>
 				<h1>Homey</h1>
-				<p>This is the Home component. wow.
+				<p>This is the Home component. wow. wow
 			</p>
 			</div>
 		);
